@@ -1,0 +1,47 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "status": {
+            "title": "Status",
+            "type": "string",
+            "description": "Status of the run"
+        },
+        "mode": {
+            "title": "Mode",
+            "type": "string",
+            "description": "Execution mode (Standalone vs MCP)"
+        },
+        "query": {
+            "title": "Query",
+            "type": "string",
+            "description": "Search query used"
+        },
+        "result": {
+            "title": "Result",
+            "type": "string",
+            "description": "The result of the tool call"
+        }
+    },
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "status",
+                    "mode",
+                    "query",
+                    "result"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "result": {
+                        "label": "Result",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}

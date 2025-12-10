@@ -1,0 +1,10 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "result": {
+            "title": "Result",
+            "type": "string",
+            "description": "The result of the tool call"
+        }
+    }
+}

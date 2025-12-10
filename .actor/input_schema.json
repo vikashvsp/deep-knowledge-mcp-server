@@ -1,0 +1,13 @@
+{
+    "title": "Deep Knowledge MCP Server",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "mcp_server": {
+            "type": "boolean",
+            "title": "Run as MCP Server",
+            "description": "If true, runs as an MCP server. If false, runs demo search.",
+            "default": true
+        }
+    }
+}
