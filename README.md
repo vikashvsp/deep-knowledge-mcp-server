@@ -2,7 +2,7 @@
 
 **Give your AI the power to browse, read, and understand technical documentation and code repositories.**
 
-This Apify Actor implements the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction), allowing LLMs (like Claude) to perform deep research on technical topics by leveraging Apify's powerful scraping infrastructure.
+This [Apify Actor](https://apify.com/eager_cornet/deep-knowledge-mcp-server) implements the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction), allowing LLMs (like Claude) to perform deep research on technical topics by leveraging Apify's powerful scraping infrastructure.
 
 ---
 
